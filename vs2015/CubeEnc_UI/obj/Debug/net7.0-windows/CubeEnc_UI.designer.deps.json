@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Ookii.Dialogs.WinForms/4.0.0": {
+        "dependencies": {
+          "System.Resources.Extensions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.WinForms.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "System.Resources.Extensions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Resources.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ookii.Dialogs.WinForms/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iBWCO5C3vc8uxDzCrZs4dtCK/MQOFG4qrcJxBRO+hHQ39SqnNhMWE/kxhCLa/D5Pxud9t+2bkC6kIanPn57VGA==",
+      "path": "ookii.dialogs.winforms/4.0.0",
+      "hashPath": "ookii.dialogs.winforms.4.0.0.nupkg.sha512"
+    },
+    "System.Resources.Extensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBnVzNQYd0OHqh0VLu/hi0zFOTtyF8QwtziQBmzX/ZtVOea4+JEVOGu29DHeSOA0a9SFrYjQorBrOLuKLhcMNQ==",
+      "path": "system.resources.extensions/6.0.0",
+      "hashPath": "system.resources.extensions.6.0.0.nupkg.sha512"
+    }
+  }
+}

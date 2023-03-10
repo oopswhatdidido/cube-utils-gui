@@ -1,0 +1,160 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "Ookii.Dialogs.WinForms/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Resources.Extensions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.WinForms.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.WinForms.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "System.Resources.Extensions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Resources.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Resources.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ookii.Dialogs.WinForms/4.0.0": {
+      "sha512": "iBWCO5C3vc8uxDzCrZs4dtCK/MQOFG4qrcJxBRO+hHQ39SqnNhMWE/kxhCLa/D5Pxud9t+2bkC6kIanPn57VGA==",
+      "type": "package",
+      "path": "ookii.dialogs.winforms/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net462/Ookii.Dialogs.WinForms.dll",
+        "lib/net462/Ookii.Dialogs.WinForms.pdb",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.WinForms.dll",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.WinForms.pdb",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.WinForms.dll",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.WinForms.pdb",
+        "lib/netcoreapp3.1/Ookii.Dialogs.WinForms.dll",
+        "lib/netcoreapp3.1/Ookii.Dialogs.WinForms.pdb",
+        "ookii.dialogs.winforms.4.0.0.nupkg.sha512",
+        "ookii.dialogs.winforms.nuspec"
+      ]
+    },
+    "System.Resources.Extensions/6.0.0": {
+      "sha512": "pBnVzNQYd0OHqh0VLu/hi0zFOTtyF8QwtziQBmzX/ZtVOea4+JEVOGu29DHeSOA0a9SFrYjQorBrOLuKLhcMNQ==",
+      "type": "package",
+      "path": "system.resources.extensions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Resources.Extensions.targets",
+        "buildTransitive/netcoreapp2.0/System.Resources.Extensions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Resources.Extensions.dll",
+        "lib/net461/System.Resources.Extensions.xml",
+        "lib/net6.0/System.Resources.Extensions.dll",
+        "lib/net6.0/System.Resources.Extensions.xml",
+        "lib/netstandard2.0/System.Resources.Extensions.dll",
+        "lib/netstandard2.0/System.Resources.Extensions.xml",
+        "system.resources.extensions.6.0.0.nupkg.sha512",
+        "system.resources.extensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "Ookii.Dialogs.WinForms >= 4.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\oppsm\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Code\\cube-utils-master\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj",
+      "projectName": "CubeEnc_UI",
+      "projectPath": "D:\\Code\\cube-utils-master\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj",
+      "packagesPath": "C:\\Users\\oppsm\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\cube-utils-master\\vs2015\\CubeEnc_UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\oppsm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "Ookii.Dialogs.WinForms": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
