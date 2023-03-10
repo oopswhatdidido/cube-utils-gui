@@ -1,3 +1,6 @@
+# Simple GUI 
+This GUI only executes the original command line program, the original code itself is not intgrated into the winforms. Only added the GUI as a convinience for myself as well as remembering the last file encoded. Not all cases are accouted for with the checkbox options.
+
 # A faster open-source alternative to CodeX
 
 The [original CodeX tool](https://groups.google.com/forum/#!topic/kisslicer-refugee-camp/ZMuIrtn5Mfo)
