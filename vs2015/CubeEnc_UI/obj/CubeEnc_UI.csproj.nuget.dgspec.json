@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\cube-utils-master\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj": {}
+    "D:\\Code\\cube-utils-gui\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj": {}
   },
   "projects": {
-    "D:\\Code\\cube-utils-master\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj": {
+    "D:\\Code\\cube-utils-gui\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\cube-utils-master\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj",
+        "projectUniqueName": "D:\\Code\\cube-utils-gui\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj",
         "projectName": "CubeEnc_UI",
-        "projectPath": "D:\\Code\\cube-utils-master\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj",
+        "projectPath": "D:\\Code\\cube-utils-gui\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj",
         "packagesPath": "C:\\Users\\oppsm\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\cube-utils-master\\vs2015\\CubeEnc_UI\\obj\\",
+        "outputPath": "D:\\Code\\cube-utils-gui\\vs2015\\CubeEnc_UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oppsm\\AppData\\Roaming\\NuGet\\NuGet.Config",

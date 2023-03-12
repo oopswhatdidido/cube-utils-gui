@@ -167,7 +167,7 @@
             this.Controls.Add(this.OpenFileBtn);
             this.Controls.Add(this.FilePathTB);
             this.Name = "CubeEncodeFrm";
-            this.Text = "Form1";
+            this.Text = "Cube Encoder";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmClosing);
             ((System.ComponentModel.ISupportInitialize)(this.cubeEncodeFrmBindingSource)).EndInit();
             this.ResumeLayout(false);
