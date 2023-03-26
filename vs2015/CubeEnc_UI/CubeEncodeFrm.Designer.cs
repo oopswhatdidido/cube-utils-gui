@@ -28,151 +28,174 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CubeEncodeFrm));
-            this.EncodeBtn = new System.Windows.Forms.Button();
-            this.OutputBtn = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.OutputFolderTB = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.OpenFileBtn = new System.Windows.Forms.Button();
-            this.FilePathTB = new System.Windows.Forms.TextBox();
-            this.EncoderSelBtn = new System.Windows.Forms.Button();
-            this.EncoderPath = new System.Windows.Forms.TextBox();
-            this.cubeEncodeFrmBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.FilenameCB = new System.Windows.Forms.CheckBox();
-            this.FolderCB = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.cubeEncodeFrmBindingSource)).BeginInit();
-            this.SuspendLayout();
+            EncodeBtn = new Button();
+            OutputBtn = new Button();
+            label2 = new Label();
+            OutputFolderTB = new TextBox();
+            label1 = new Label();
+            OpenFileBtn = new Button();
+            FilePathTB = new TextBox();
+            EncoderSelBtn = new Button();
+            EncoderPath = new TextBox();
+            cubeEncodeFrmBindingSource = new BindingSource(components);
+            FilenameCB = new CheckBox();
+            FolderCB = new CheckBox();
+            label3 = new Label();
+            ((System.ComponentModel.ISupportInitialize)cubeEncodeFrmBindingSource).BeginInit();
+            SuspendLayout();
             // 
             // EncodeBtn
             // 
-            this.EncodeBtn.Location = new System.Drawing.Point(857, 218);
-            this.EncodeBtn.Name = "EncodeBtn";
-            this.EncodeBtn.Size = new System.Drawing.Size(112, 34);
-            this.EncodeBtn.TabIndex = 13;
-            this.EncodeBtn.Text = "Encode";
-            this.EncodeBtn.UseVisualStyleBackColor = true;
-            this.EncodeBtn.Click += new System.EventHandler(this.EncodeBtn_Click);
+            EncodeBtn.Location = new Point(600, 131);
+            EncodeBtn.Margin = new Padding(2, 2, 2, 2);
+            EncodeBtn.Name = "EncodeBtn";
+            EncodeBtn.Size = new Size(78, 20);
+            EncodeBtn.TabIndex = 13;
+            EncodeBtn.Text = "Encode";
+            EncodeBtn.UseVisualStyleBackColor = true;
+            EncodeBtn.Click += EncodeBtn_Click;
             // 
             // OutputBtn
             // 
-            this.OutputBtn.Image = ((System.Drawing.Image)(resources.GetObject("OutputBtn.Image")));
-            this.OutputBtn.Location = new System.Drawing.Point(975, 164);
-            this.OutputBtn.Name = "OutputBtn";
-            this.OutputBtn.Size = new System.Drawing.Size(62, 31);
-            this.OutputBtn.TabIndex = 12;
-            this.OutputBtn.UseVisualStyleBackColor = true;
-            this.OutputBtn.Click += new System.EventHandler(this.OutputBtn_Click);
+            OutputBtn.Image = (Image)resources.GetObject("OutputBtn.Image");
+            OutputBtn.Location = new Point(682, 98);
+            OutputBtn.Margin = new Padding(2, 2, 2, 2);
+            OutputBtn.Name = "OutputBtn";
+            OutputBtn.Size = new Size(43, 19);
+            OutputBtn.TabIndex = 12;
+            OutputBtn.UseVisualStyleBackColor = true;
+            OutputBtn.Click += OutputBtn_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(67, 167);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 25);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Save To";
+            label2.AutoSize = true;
+            label2.Location = new Point(47, 100);
+            label2.Margin = new Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(46, 15);
+            label2.TabIndex = 11;
+            label2.Text = "Save To";
             // 
             // OutputFolderTB
             // 
-            this.OutputFolderTB.Location = new System.Drawing.Point(156, 164);
-            this.OutputFolderTB.Name = "OutputFolderTB";
-            this.OutputFolderTB.Size = new System.Drawing.Size(813, 31);
-            this.OutputFolderTB.TabIndex = 10;
+            OutputFolderTB.Location = new Point(109, 98);
+            OutputFolderTB.Margin = new Padding(2, 2, 2, 2);
+            OutputFolderTB.Name = "OutputFolderTB";
+            OutputFolderTB.Size = new Size(570, 23);
+            OutputFolderTB.TabIndex = 10;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(52, 106);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 25);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Open File";
+            label1.AutoSize = true;
+            label1.Location = new Point(36, 64);
+            label1.Margin = new Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(57, 15);
+            label1.TabIndex = 9;
+            label1.Text = "Open File";
             // 
             // OpenFileBtn
             // 
-            this.OpenFileBtn.Image = ((System.Drawing.Image)(resources.GetObject("OpenFileBtn.Image")));
-            this.OpenFileBtn.Location = new System.Drawing.Point(975, 103);
-            this.OpenFileBtn.Name = "OpenFileBtn";
-            this.OpenFileBtn.Size = new System.Drawing.Size(62, 31);
-            this.OpenFileBtn.TabIndex = 8;
-            this.OpenFileBtn.UseVisualStyleBackColor = true;
-            this.OpenFileBtn.Click += new System.EventHandler(this.OpenFileBtn_Click);
+            OpenFileBtn.Image = (Image)resources.GetObject("OpenFileBtn.Image");
+            OpenFileBtn.Location = new Point(682, 62);
+            OpenFileBtn.Margin = new Padding(2, 2, 2, 2);
+            OpenFileBtn.Name = "OpenFileBtn";
+            OpenFileBtn.Size = new Size(43, 19);
+            OpenFileBtn.TabIndex = 8;
+            OpenFileBtn.UseVisualStyleBackColor = true;
+            OpenFileBtn.Click += OpenFileBtn_Click;
             // 
             // FilePathTB
             // 
-            this.FilePathTB.Location = new System.Drawing.Point(156, 103);
-            this.FilePathTB.Name = "FilePathTB";
-            this.FilePathTB.Size = new System.Drawing.Size(813, 31);
-            this.FilePathTB.TabIndex = 7;
+            FilePathTB.Location = new Point(109, 62);
+            FilePathTB.Margin = new Padding(2, 2, 2, 2);
+            FilePathTB.Name = "FilePathTB";
+            FilePathTB.Size = new Size(570, 23);
+            FilePathTB.TabIndex = 7;
             // 
             // EncoderSelBtn
             // 
-            this.EncoderSelBtn.Image = ((System.Drawing.Image)(resources.GetObject("EncoderSelBtn.Image")));
-            this.EncoderSelBtn.Location = new System.Drawing.Point(975, 299);
-            this.EncoderSelBtn.Name = "EncoderSelBtn";
-            this.EncoderSelBtn.Size = new System.Drawing.Size(62, 31);
-            this.EncoderSelBtn.TabIndex = 16;
-            this.EncoderSelBtn.UseVisualStyleBackColor = true;
-            this.EncoderSelBtn.Click += new System.EventHandler(this.EncoderSelBtn_Click);
+            EncoderSelBtn.Image = (Image)resources.GetObject("EncoderSelBtn.Image");
+            EncoderSelBtn.Location = new Point(682, 179);
+            EncoderSelBtn.Margin = new Padding(2, 2, 2, 2);
+            EncoderSelBtn.Name = "EncoderSelBtn";
+            EncoderSelBtn.Size = new Size(43, 19);
+            EncoderSelBtn.TabIndex = 16;
+            EncoderSelBtn.UseVisualStyleBackColor = true;
+            EncoderSelBtn.Click += EncoderSelBtn_Click;
             // 
             // EncoderPath
             // 
-            this.EncoderPath.Location = new System.Drawing.Point(156, 299);
-            this.EncoderPath.Name = "EncoderPath";
-            this.EncoderPath.Size = new System.Drawing.Size(813, 31);
-            this.EncoderPath.TabIndex = 15;
+            EncoderPath.Location = new Point(109, 179);
+            EncoderPath.Margin = new Padding(2, 2, 2, 2);
+            EncoderPath.Name = "EncoderPath";
+            EncoderPath.Size = new Size(570, 23);
+            EncoderPath.TabIndex = 15;
             // 
             // cubeEncodeFrmBindingSource
             // 
-            this.cubeEncodeFrmBindingSource.DataSource = typeof(CubeEnc_UI.CubeEncodeFrm);
+            cubeEncodeFrmBindingSource.DataSource = typeof(CubeEncodeFrm);
             // 
             // FilenameCB
             // 
-            this.FilenameCB.AutoSize = true;
-            this.FilenameCB.Location = new System.Drawing.Point(406, 218);
-            this.FilenameCB.Name = "FilenameCB";
-            this.FilenameCB.Size = new System.Drawing.Size(236, 29);
-            this.FilenameCB.TabIndex = 17;
-            this.FilenameCB.Text = "Output to same filename";
-            this.FilenameCB.UseVisualStyleBackColor = true;
-            this.FilenameCB.CheckedChanged += new System.EventHandler(this.FileCBChg);
+            FilenameCB.AutoSize = true;
+            FilenameCB.Location = new Point(284, 131);
+            FilenameCB.Margin = new Padding(2, 2, 2, 2);
+            FilenameCB.Name = "FilenameCB";
+            FilenameCB.Size = new Size(158, 19);
+            FilenameCB.TabIndex = 17;
+            FilenameCB.Text = "Output to same filename";
+            FilenameCB.UseVisualStyleBackColor = true;
+            FilenameCB.CheckedChanged += FileCBChg;
             // 
             // FolderCB
             // 
-            this.FolderCB.AutoSize = true;
-            this.FolderCB.Location = new System.Drawing.Point(156, 218);
-            this.FolderCB.Name = "FolderCB";
-            this.FolderCB.Size = new System.Drawing.Size(216, 29);
-            this.FolderCB.TabIndex = 14;
-            this.FolderCB.Text = "Output to same folder";
-            this.FolderCB.UseVisualStyleBackColor = true;
-            this.FolderCB.CheckedChanged += new System.EventHandler(this.FileCBChg);
+            FolderCB.AutoSize = true;
+            FolderCB.Location = new Point(109, 131);
+            FolderCB.Margin = new Padding(2, 2, 2, 2);
+            FolderCB.Name = "FolderCB";
+            FolderCB.Size = new Size(143, 19);
+            FolderCB.TabIndex = 14;
+            FolderCB.Text = "Output to same folder";
+            FolderCB.UseVisualStyleBackColor = true;
+            FolderCB.CheckedChanged += FileCBChg;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(16, 183);
+            label3.Margin = new Padding(2, 0, 2, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(77, 15);
+            label3.TabIndex = 18;
+            label3.Text = "Encoder Path";
             // 
             // CubeEncodeFrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1107, 387);
-            this.Controls.Add(this.FilenameCB);
-            this.Controls.Add(this.EncoderSelBtn);
-            this.Controls.Add(this.EncoderPath);
-            this.Controls.Add(this.FolderCB);
-            this.Controls.Add(this.EncodeBtn);
-            this.Controls.Add(this.OutputBtn);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.OutputFolderTB);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.OpenFileBtn);
-            this.Controls.Add(this.FilePathTB);
-            this.Name = "CubeEncodeFrm";
-            this.Text = "Cube Encoder";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.cubeEncodeFrmBindingSource)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(775, 232);
+            Controls.Add(label3);
+            Controls.Add(FilenameCB);
+            Controls.Add(EncoderSelBtn);
+            Controls.Add(EncoderPath);
+            Controls.Add(FolderCB);
+            Controls.Add(EncodeBtn);
+            Controls.Add(OutputBtn);
+            Controls.Add(label2);
+            Controls.Add(OutputFolderTB);
+            Controls.Add(label1);
+            Controls.Add(OpenFileBtn);
+            Controls.Add(FilePathTB);
+            Margin = new Padding(2, 2, 2, 2);
+            Name = "CubeEncodeFrm";
+            Text = "Cube Encoder";
+            FormClosing += FrmClosing;
+            ((System.ComponentModel.ISupportInitialize)cubeEncodeFrmBindingSource).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -189,5 +212,6 @@
         private BindingSource cubeEncodeFrmBindingSource;
         private CheckBox FilenameCB;
         private CheckBox FolderCB;
+        private Label label3;
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7nvvgZMxFuNtDvB9sA8Z1t86X4bDTV20T2vaj+C6jzZoTD704hO743Vg6XdqdZotZPEvGOSgEj7FyttrXoLjaw==",
+  "dgSpecHash": "a0Sl7e47iaO72vh4V++/pHmbb2JuUPKs6PnRSp1Zp94xq2800TqBjDQh4KlSlARmOBg542+eJ4kolXjYIWhGlg==",
   "success": true,
-  "projectFilePath": "D:\\Code\\cube-utils-gui\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj",
+  "projectFilePath": "D:\\GrabCad\\CubeEncode\\cube-utils-gui\\vs2015\\CubeEnc_UI\\CubeEnc_UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oppsm\\.nuget\\packages\\ookii.dialogs.winforms\\4.0.0\\ookii.dialogs.winforms.4.0.0.nupkg.sha512",
     "C:\\Users\\oppsm\\.nuget\\packages\\system.resources.extensions\\6.0.0\\system.resources.extensions.6.0.0.nupkg.sha512"

@@ -51,12 +51,12 @@ namespace CubeEnc_UI
 
         private void EncodeBtn_Click(object sender, EventArgs e)
         {
-            if (!File.Exists(FilePathTB.Text)) 
+            if (!File.Exists(FilePathTB.Text))
             {
                 MessageBox.Show("File not found!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            
+
             if (!File.Exists(EncoderPath.Text))
             {
                 MessageBox.Show("Encoder not found!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -74,7 +74,7 @@ namespace CubeEnc_UI
             }
             if (FilenameCB.Checked && FolderCB.Checked)
             {
-                startInfo.Arguments = FilePathTB.Text;
+                startInfo.Arguments = "\"" + FilePathTB.Text + "\"";
                 OutputFolderTB.Text = Path.GetDirectoryName(FilePathTB.Text) + "\\" + Path.GetFileNameWithoutExtension(FilePathTB.Text) + ".cubepro";
             }
             else
@@ -85,7 +85,7 @@ namespace CubeEnc_UI
                     return;
                 }
                 OutputFolderTB.Text = (FolderCB.Checked ? Path.GetDirectoryName(FilePathTB.Text) : Path.GetDirectoryName(OutputFolderTB.Text)) + "\\" + (FilenameCB.Checked ? Path.GetFileNameWithoutExtension(FilePathTB.Text) + ".cubepro" : Path.GetFileName(OutputFolderTB.Text));
-                startInfo.Arguments = FilePathTB.Text + " " + OutputFolderTB.Text;
+                startInfo.Arguments = "\"" + FilePathTB.Text + "\" \"" + OutputFolderTB.Text + "\"";
             }
             process.StartInfo = startInfo;
             process.Start();
@@ -163,7 +163,7 @@ namespace CubeEnc_UI
             Properties.Settings.Default.LastFileLocation = FilePathTB.Text;
             Properties.Settings.Default.EncoderPath = EncoderPath.Text;
             Properties.Settings.Default.SameFileCB = FilenameCB.Checked;
-            Properties.Settings.Default.SameFolderCB= FolderCB.Checked;
+            Properties.Settings.Default.SameFolderCB = FolderCB.Checked;
             Properties.Settings.Default.Save();
 
         }
